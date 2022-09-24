@@ -1,5 +1,5 @@
 <?php
-include 'main.php';
+//include 'main.php';
 
 if (isset($_SESSION['logged_in'])) {
     header('Location: home.php');
