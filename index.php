@@ -45,6 +45,10 @@ if (isset($_COOKIE['remember_me']) && !empty($_COOKIE['remember_me'])) {
 
 			<h1>Login</h1>
 
+            <div class="image">
+                <img src="img_avatar.png" alt="Avatar" style="width:200px;filter: sepia(100%);">
+            </div>
+
 			<div class="links">
 				<a href="index.php" class="active">Login</a>
 				<a href="register.php">Register</a>
